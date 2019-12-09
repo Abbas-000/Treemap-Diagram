@@ -1,0 +1,30 @@
+form {
+  text-align: center;
+  user-select: none;
+}
+
+#title, #description, #chart {
+  text-align: center;
+}
+
+#tooltip {
+  position: absolute;
+  background-color: rgba(255, 255, 255, 0.7);
+  text-align: center;
+  border-radius: 5px;
+  color: #000;
+  font-weight: 500;
+  padding: 4px;
+}
+
+#tooltip p {
+  margin: 0px;
+}
+
+text tspan {
+  cursor: default;
+}
+
+#legend {
+  text-align: center;
+}

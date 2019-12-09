@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="This is a d3.js project data visualization in which you can see the 3 different categories of games, movies and kickstarters data">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Treemap diagram</title>
+  </head>
+  <body>
+    <main>
+      <form>
+        <label for="games">Games Data</label>
+        <input type="radio" name="data" id="games" value="games" checked> |
+        <label for="movies">Movies Data</label>
+        <input type="radio" name="data" id="movies" value="movies"> |
+        <label for="kickstarters">Kickstarter Data</label>
+        <input type="radio" name="data" id="kickstarters" value="kickstarters">
+      </form>
+      <h2 id="title"></h2>
+      <h3 id="description"></h3>
+      <div id="chart">
+
+      </div>
+      <div id="legend">
+
+      </div>
+    </main>
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>
